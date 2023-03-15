@@ -1,5 +1,6 @@
 <template>
   <Header />
+  <Meldingen />
   <div class="container">
     <router-view />
   </div>
@@ -8,6 +9,7 @@
 
 <script>
 import Header from '@/components/Header.vue'
+
 export default {
   components: {
     Header
