@@ -13,7 +13,7 @@ const routes = [
     name: 'meldingen',
     component: Meldingen
   },
-  
+   
 ]
 
 const router = createRouter({
